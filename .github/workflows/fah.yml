@@ -2,9 +2,9 @@ name: fah
 
 on:
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+    branches:
+    - master
+    - fah*
 
 jobs:
   fah:
