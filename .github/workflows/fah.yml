@@ -12,4 +12,4 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: docker run
-        run: docker run -p7396:7396 36330:36330 johnktims/folding-at-home:latest --user=0 --team=223518 --gpu=false --smp=true
+        run: docker run johnktims/folding-at-home:latest --user=0 --team=223518 --gpu=false --smp=true
