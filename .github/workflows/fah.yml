@@ -11,6 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: fahdocker
-      uses: johnktims/folding-at-home:latest
+      uses: johnktims/folding-at-home
       with:
         gpu: false
